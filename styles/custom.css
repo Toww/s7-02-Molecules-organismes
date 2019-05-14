@@ -72,3 +72,21 @@ ul {
 	height:32px;
 
 }
+
+.event-header {
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+
+.event-header img {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.event-icons {
+	font-size: 24px;
+}
