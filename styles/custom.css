@@ -90,3 +90,17 @@ ul {
 .event-icons {
 	font-size: 24px;
 }
+
+.site-element {
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+
+.site-element img{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
